@@ -1,4 +1,6 @@
 const mongoose=require('mongoose')
+
+const mongoURL = 'mongodb+srv://amrutha:<password>@cluster0.8xe09fn.mongodb.net/?retryWrites=true&w=majority'
 const connectionString=process.env.DATABASE
 
 mongoose.connect(connectionString,{

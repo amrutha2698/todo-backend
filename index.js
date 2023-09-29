@@ -10,7 +10,7 @@ server.use(express.json())
 server.use(router)
 
 
-const PORT=4000 || process.env.PORT
+const PORT=4000 || process.env.PORT;
 
 // We have to export uploads folder as a static file/folder
 server.use('/uploads',express.static('./uploads'))
